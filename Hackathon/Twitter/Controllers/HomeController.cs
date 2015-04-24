@@ -15,26 +15,19 @@ namespace Twitter.Controllers
 
         public ActionResult Index()
         {
-
-            
-
-           /* var client = new FacebookClient();
-            dynamic me = client.Get("#devcon");
-
-            ViewBag.Me = me;
-*/
-
             var accessToken = "CAAFo3KVnsXwBAGP1muyB0A9QMZBpybQFcE6zpMTdbcJ7o7IySF6i13WcsTggS6oGZB4iHRYGzkA8rJqmv52djdWDH3yzqElrGDLlAZAxZAVXo9BActdRaZCmNFr25rpwRvV3CiwtDnnbWb1cQpMXZAhY5xcBlCcLLaCBpWD2gLvdDXE03yrg4tKTgWUFoCOZBOXIbrudO11hxwPZASyMVSyC";
             var client = new FacebookClient(accessToken);
-            dynamic me = client.Get("me");
-
-            // https://www.facebook.com/hashtag/devcon?source=feed_text&story_id=10153031794808173&pnref=story
-
-            var search = client.Get("https://www.facebook.com/hashtag/devcon?source=feed_text&story_id=10153031794808173&pnref=story");
+            dynamic me = client.Get("MauritiusSoftwareCraftsmanshipCommunity/statuses");
 
            
-            string aboutMe = me.about;
+            // https://www.facebook.com/hashtag/devconmru
 
+
+            var status = me.message;
+
+            var s = me.feed;
+
+            string aboutMe = me.about;
 
             return View();
         }
