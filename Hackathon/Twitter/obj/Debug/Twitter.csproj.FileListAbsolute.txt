@@ -26,6 +26,5 @@ C:\Gul\SANDBOX\hackathon\Hackathon\Twitter\bin\System.Web.Razor.xml
 C:\Gul\SANDBOX\hackathon\Hackathon\Twitter\bin\System.Web.WebPages.xml
 C:\Gul\SANDBOX\hackathon\Hackathon\Twitter\bin\System.Web.WebPages.Deployment.xml
 C:\Gul\SANDBOX\hackathon\Hackathon\Twitter\bin\System.Web.WebPages.Razor.xml
-C:\Gul\SANDBOX\hackathon\Hackathon\Twitter\obj\Debug\Twitter.csprojResolveAssemblyReference.cache
 C:\Gul\SANDBOX\hackathon\Hackathon\Twitter\obj\Debug\Twitter.dll
 C:\Gul\SANDBOX\hackathon\Hackathon\Twitter\obj\Debug\Twitter.pdb
